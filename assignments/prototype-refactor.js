@@ -19,7 +19,6 @@ class GameObject {
   }
 }
 
-
 class CharacterStats extends GameObject {
   constructor(attr) {
     super(attr)
@@ -29,7 +28,6 @@ class CharacterStats extends GameObject {
     return `${this.name} took damage.`;
   }
 }
-
 
 class Humanoid extends CharacterStats {
   constructor(attr) {
